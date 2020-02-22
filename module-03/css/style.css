@@ -18,25 +18,24 @@ img {
     height: auto;
 }
 
-.container {
-    width: 905px;
+.menu {
+    width: 900px;
     margin: 0 auto;
 }
 
 .page-nav {
     padding: 80px 0;
-    margin-bottom: 20px;
 }
 
  /* site navigation */
 
 .site-navigation {
+    font-size: 0;
     display: inline-block;
     vertical-align: middle;
     width: 900px;
     margin:  0;
     padding: 0;
-    font-size: 14px;
     list-style: none;
     text-align: center;
 
@@ -52,6 +51,7 @@ img {
 
 
 .site-navigation a {
+    font-size: 14px;
     display: block;
     color: #626262;
     font-weight: 400;
@@ -70,8 +70,17 @@ img {
 
 /* row-text*/
 
-.row-text {
+main {
+    width: 900px;
+    margin: 0 auto;
+}
+
+section {
     font-size: 0;
+}
+
+.row-text {
+    /* font-size: 0; */
     width: 420px;
     margin: 0;
     padding: 0;
@@ -96,6 +105,7 @@ img {
 }
 
 .row-heading {
+    margin: 0;
     margin-bottom: 36px;
     font-size: 30px;
     line-height: 36px;
@@ -103,8 +113,14 @@ img {
 }
 
 .row-about {
+    margin: 0;
+    margin-bottom: 10px;
     font-size: 14px;
     line-height: 24px;
+}
+
+.think {
+    margin-bottom: 0;
 }
 
 .button a {
@@ -128,4 +144,3 @@ img {
 .button a:focus {
     color: #03a9f4;
 }
-
