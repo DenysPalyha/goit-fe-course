@@ -77,10 +77,10 @@ main {
 
 section {
     font-size: 0;
+    padding-bottom: 20px;
 }
 
 .row-text {
-    /* font-size: 0; */
     width: 420px;
     margin: 0;
     padding: 0;
@@ -114,33 +114,31 @@ section {
 
 .row-about {
     margin: 0;
-    margin-bottom: 10px;
     font-size: 14px;
     line-height: 24px;
 }
 
-.think {
-    margin-bottom: 0;
+div {
+    text-align: center;
+    padding: 50px 0;
 }
 
-.button a {
-    text-align:center;
-    font-size:20px;
-    color: #626262;
-    text-decoration: none;
-    font-weight: 400;
-    padding: 19px 30px;
-    display:block;
-    width:160px;
-    height: 60px;
-    margin: 60px auto;
-    border: 1px solid #000000;
+.button {
+margin: 0;
+padding: 19px 30px;
+width: 160px;
+height: 60px;
+font-size: 20px;
+color: #626262;
+background-color: #fff;
+border: 1px solid #000;
+cursor: pointer;
 }
 
-.button a:hover {
+.button:hover {
     color: #03a9f4;
 }
 
-.button a:focus {
+.button:focus {
     color: #03a9f4;
 }
