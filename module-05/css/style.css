@@ -5,6 +5,8 @@ html {
     box-sizing: inherit;
 }
 
+
+
 body {
     font-family: "Open Sans", "Roboto", sans-serif;
     
@@ -114,15 +116,15 @@ img {
     position: relative;
 }
 
-.child {
+.section__div-child {
     position: absolute;
     width: 1010px;
     height: 120px;
     margin: 0;
     padding: 0;
-    top: 40%;
-    left: 50%;
-    transform: translate(-48%, -67%);
+    top: 42%;
+    left: 49%;
+    transform: translate(-47%, -40%);
 }
 
 .section__slider-heading {
@@ -244,6 +246,7 @@ img {
 
 .section__title-new {
     list-style: none;
+    width: 100%;
     width: 1110px;
     margin: 0;
     padding: 0;
@@ -256,129 +259,117 @@ img {
     padding: 0;
     display: block;
     float: left;
-    position: relative;
+    cursor: pointer;
 }
 
 .section__title-item:not(:last-child) {
     margin-right: 30px;
 }
 
-.section__card {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 235px;
-    height: 263px;
-    background-color: rgba(0, 0, 0, 1);
-    opacity: 0;
+.section__actions-wrap {
+    position: relative;
 }
 
-.section__title-item:hover .section__card {
-    opacity: 0.6;
-}
-
-.section__list-socials {
-    position: absolute;
-    top: 80px;
-    right: 34px;
-    margin: 0;
-    padding: 0; 
-    opacity: 0;
-}
-
-.section__soc-item {
-    float: left;
-    padding-right: 7px;
-}
-
-.section__soc-link {
+.section__actions {
     display: block;
-    width: 50px;
-    height: 50px;
-    border: 1px solid rgb(255, 255, 255); 
+    width: 100%;
 }
 
-.section__title-item:hover .section__list-socials {
+.section__actions_window {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    background-color: rgba( 0, 0, 0, 0.5);
+    transition: all 0.35s;
+    opacity: 0;
+}
+
+.section__title-item:hover .section__actions_window {
     opacity: 1;
 }
 
-.section__soc-link-04 {
-    display: inline-block;
-    margin: 0;
-    border: 1px solid rgb(255, 255, 255);
-    font-size: 14px;
-    line-height: 32px;
-    color: #ffffff;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.icon-1 {
-    background-image: url(../img/icon/icon-01.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.icon-2 {
-    background-image: url(../img/icon/icon-02.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.icon-3 {
-    background-image: url(../img/icon/icon-03.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.icon-1:hover {
-    background-color: rgb(26, 188, 156);
-}
-
-.icon-2:hover {
-    background-color: rgb(26, 188, 156);
-}
-
-.icon-3:hover {
-    background-color: rgb(26, 188, 156);
-}
-
-  /* icon-04 */
-
-.section__soc-item-04 {
+.section__action-list {
     position: absolute;
-    top: 135px;
-    left: 50px;
-    width: 165px;
-    height: 50px;
-    border: 1px solid #ffffff;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 166px;
+    height: 107px;
     margin: 0;
     padding: 0;
+    list-style: none;
+    margin: auto;
+}
+
+.section__action-item {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 8px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.section__action-item:nth-child(n+3) {
+    margin-right: 0;
+}
+
+.section__action-item:nth-child(4) {
+    width: 100%;
+    margin-top: 8px;
     background-color: #323232;
-    background-image: url(/img/icon/icon.png);
-    background-repeat: no-repeat;
-    background-size: inherit;
-    background-position: 10px;
-    cursor: pointer;
-    opacity: 0;
 }
 
-.section__soc-link-04 {
-    float: right;
-    margin: 0;
-    padding: 8px 15px 16px ;
-    text-decoration: none;
-    border: none;
-}
-
-.section__title-item:hover .section__soc-item-04 {
-    opacity: 1;
-}
-
-.section__soc-item-04:hover {
+.section__action-item:hover {
     background-color: #1abc9c;
+    border-color: #1abc9c;
 }
 
-/* icon-04 */
+
+
+.icon-01 {
+    background-image: url(/img/icon/icon-01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-02 {
+    background-image: url(/img/icon/icon-02.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-03 {
+    background-image: url(/img/icon/icon-03.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-04 {
+    background-image: url(/img/icon/icon-04.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+.section__action-link {
+    font-size: 14px;
+    line-height: 32px;
+    color: #fff;
+    text-transform: uppercase;
+    vertical-align: 20px;
+    text-decoration: none;
+}
+
+.section__action-link-text {
+    display: block;
+    padding-left: 20px;
+    padding-top: 8px;
+    text-align: center;
+}
 
 .title__img {
     width: 100%;
