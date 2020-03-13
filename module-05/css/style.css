@@ -5,8 +5,6 @@ html {
     box-sizing: inherit;
 }
 
-
-
 body {
     font-family: "Open Sans", "Roboto", sans-serif;
     
@@ -23,7 +21,8 @@ img {
 .header__start {
     width: 1110px;
     margin: 0 auto;
-    padding: 0;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 
 .header__logo {
@@ -35,7 +34,6 @@ img {
     text-decoration: none;
     text-transform: uppercase;
     float: left;
-    padding: 20px 169px 0 9px;
 }
 
 .header__logo::first-letter {
@@ -59,7 +57,7 @@ img {
 .header__nav-list {
     width: 480px;
     margin: 0;
-    padding: 35px 0 0;
+    padding: 0;
     list-style: none;
 }
 
@@ -98,7 +96,7 @@ img {
 /* section slider */
 
 .section__main {
-    margin: 20px 0 0;
+    margin: 0;
     padding: 0;
 }
 
@@ -107,10 +105,8 @@ img {
     padding: 0;
 }
 
-
 .section__div { 
-    width: 1350px;
-    height: 500px;
+    /* height: 500px; */
     margin: 0;
     padding: 0;
     position: relative;
@@ -125,6 +121,12 @@ img {
     top: 42%;
     left: 49%;
     transform: translate(-47%, -40%);
+}
+
+.section__slider_item {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .section__slider-heading {
@@ -147,12 +149,6 @@ img {
     text-transform: uppercase;
 }
 
-.section__baner-image {
-    width: 100%;
-    max-width: 1350px;
-    height: 500px;
-}
-
 .child-befor {
     display: block;
     width: 95px;
@@ -161,11 +157,13 @@ img {
     margin-right: 80px;
     padding-top: 5px;
     padding-left: 30px;
+    border: none;
     float: left;
     background-color: #1abc9c;
     background-image: url(../img/icon/icon-00.png);
     background-repeat: no-repeat;
     background-position: center;
+    cursor: pointer;
     filter: opacity(0.4);
 }
 
@@ -185,11 +183,13 @@ img {
     margin-left: 80px;
     padding-top: 5px;
     padding-left: 30px;
+    border: none;
     float: right;
     background-color: #1abc9c;
     background-image: url(../img/icon/icon-001.png);
     background-repeat: no-repeat;
     background-position: center;
+    cursor: pointer;
     filter: opacity(0.4);
 }
 
@@ -203,12 +203,6 @@ img {
 
 /* section collection */
 
-.wrapper {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background-color: #e9f0fd;
-}
-
 .cliarfix::after {
     content: '';
     display: table;
@@ -216,12 +210,18 @@ img {
 }
 
 .section__collection {
-    width: 100%;
-    width: 1110px;
-    margin: 0 auto;
-    padding-left: 30px;
-    padding-right: 30px;
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
     background-color: #e9f0fd;
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .section__title-head {
@@ -246,8 +246,6 @@ img {
 
 .section__title-new {
     list-style: none;
-    width: 100%;
-    width: 1110px;
     margin: 0;
     padding: 0;
 }
@@ -292,44 +290,59 @@ img {
 
 .section__action-list {
     position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 166px;
-    height: 107px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     margin: 0;
     padding: 0;
     list-style: none;
-    margin: auto;
 }
 
-.section__action-item {
+.button__action-item {
     float: left;
+    margin-right: 8px;
+}
+
+.button__action-item:nth-child(n+3) {
+    margin-right: 0px;
+}
+
+.button__action-link {
+    display: block;
     width: 50px;
     height: 50px;
-    margin-right: 8px;
+    margin: 0;
+    padding: 0;
     border: 1px solid #fff;
-    box-sizing: border-box;
-    text-align: center;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
 }
 
-.section__action-item:nth-child(n+3) {
-    margin-right: 0;
-}
-
-.section__action-item:nth-child(4) {
-    width: 100%;
-    margin-top: 8px;
+.button__action-links {
+    width: 167px;
+    height: 50px;
+    margin: 0;
+    margin-top: 7px;
+    padding: 0;
+    border: 1px solid #fff;
+    font-size: 14px;
+    line-height: 32px;
+    color: #fff;
     background-color: #323232;
+    text-transform: uppercase;
+    cursor: pointer;
 }
-
-.section__action-item:hover {
+.button__action-link:hover {
     background-color: #1abc9c;
     border-color: #1abc9c;
 }
 
-
+.button__action-item:hover .button__action-links {
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+}
 
 .icon-01 {
     background-image: url(https://github.com/DenysPalyha/goit-fe-course/blob/master/module-05/img/icon-01.png?raw=true);
@@ -353,22 +366,6 @@ img {
     background-image: url(https://github.com/DenysPalyha/goit-fe-course/blob/master/module-05/img/icon-04.png?raw=true);
     background-repeat: no-repeat;
     background-position: 10px;
-}
-
-.section__action-link {
-    font-size: 14px;
-    line-height: 32px;
-    color: #fff;
-    text-transform: uppercase;
-    vertical-align: 20px;
-    text-decoration: none;
-}
-
-.section__action-link-text {
-    display: block;
-    padding-left: 20px;
-    padding-top: 8px;
-    text-align: center;
 }
 
 .title__img {
