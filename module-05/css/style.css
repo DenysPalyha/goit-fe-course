@@ -342,13 +342,13 @@ img {
 }
 
 .icon-01 {
-    background-image: url(/img/icon/icon-01.png);
+    background-image: url(https://github.com/DenysPalyha/goit-fe-course/blob/master/module-05/img/icon/icon-01.png?raw=true);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .icon-02 {
-    background-image: url(/img/icon/icon-02.png);
+    background-image: url(https://github.com/DenysPalyha/goit-fe-course/blob/master/module-05/img/icon/icon-02.png?raw=true);
     background-repeat: no-repeat;
     background-position: center;
 }
