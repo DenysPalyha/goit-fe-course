@@ -19,10 +19,8 @@ img {
 /* header__start */
 
 .header__start {
-    width: 1110px;
-    margin: 0 auto;
-    padding-top: 35px;
-    padding-bottom: 35px;
+    margin: 0;
+    margin-top: 35px;
 }
 
 .header__logo {
@@ -106,9 +104,9 @@ img {
 }
 
 .section__div { 
-    /* height: 500px; */
     margin: 0;
     padding: 0;
+    padding-top: 35px;
     position: relative;
 }
 
@@ -252,7 +250,6 @@ img {
 
 .section__title-item {  
     width: 255px;
-    height: 282px;
     margin: 0;
     padding: 0;
     display: block;
@@ -345,25 +342,25 @@ img {
 }
 
 .icon-01 {
-    background-image: url(https://github.com/DenysPalyha/goit-fe-course/blob/master/module-05/img/icon-01.png?raw=true);
+    background-image: url(/img/icon/icon-01.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .icon-02 {
-    background-image: url(https://github.com/DenysPalyha/goit-fe-course/blob/master/module-05/img/icon-02.png?raw=true);
+    background-image: url(/img/icon/icon-02.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .icon-03 {
-    background-image: url(https://github.com/DenysPalyha/goit-fe-course/blob/master/module-05/img/icon-03.png?raw=true);
+    background-image: url(/img/icon/icon-03.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .icon-04 {
-    background-image: url(https://github.com/DenysPalyha/goit-fe-course/blob/master/module-05/img/icon-04.png?raw=true);
+    background-image: url(/img/icon/icon-04.png);
     background-repeat: no-repeat;
     background-position: 10px;
 }

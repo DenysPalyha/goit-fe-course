@@ -16,8 +16,9 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="container">
-    <header class="header__start cliarfix">
+    
+    <header class="header__start">
+      <div class="container cliarfix">
       <a href="#" class="header__logo">Mart</a>
       <nav class="header__nav">
         <ul class="header__nav-list cliarfix">
@@ -41,8 +42,8 @@
           </li>
         </ul>
       </nav>
+    </div>
     </header>
-  </div>
 
     <!-- section slider -->
 
@@ -50,8 +51,8 @@
       <div class="section__div cliarfix">
         <div class="section__baner">
           <img
-            src="https://github.com/DenysPalyha/goit-fe-course/blob/master/module-05/img/image/image-05.jpg?raw=true"
-            alt=""
+            src="/img/image/image-05.jpg"
+            alt="girls"
             class="section__baner-image"
           />
         </div>
@@ -59,8 +60,10 @@
           <button class="child-befor"></button>
           <button class="child-after"></button>
           <ul class="section__slider_item">
-            <li class="section__slider-heading">Affordable paris tours</li>
-            <li class="section__slider-span">City tours / Tour tickets / Tour guides</li>
+            <li class="section__slider-heading">
+              <h2 class="section__slider-heading"> Affordable paris tours</h2>
+              <p class="section__slider-span"> City tours / Tour tickets / Tour guides</p>
+            </li> 
           </ul>
         </div>
       </div>
