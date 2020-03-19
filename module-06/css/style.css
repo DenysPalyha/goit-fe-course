@@ -173,7 +173,7 @@ color: var(--hover-color);
     content: '';
     width: 32px;
     height: 32px;
-    background-image: url(/img/icon/ALARM.png);
+    background-image: url(../img/icon/ALARM.png);
     background-repeat: no-repeat;
 }
 
@@ -185,7 +185,7 @@ color: var(--hover-color);
     content: '';
     width: 32px;
     height: 32px;
-    background-image: url(/img/icon/LINE\ GRAPH.png);
+    background-image: url(../img/icon/LINE\ GRAPH.png);
     background-repeat: no-repeat;
 }
 
@@ -197,7 +197,7 @@ color: var(--hover-color);
     content: '';
     width: 32px;
     height: 32px;
-    background-image: url(/img/icon/COMPUTER\ _\ OK.png);
+    background-image: url(../img/icon/COMPUTER\ _\ OK.png);
     background-repeat: no-repeat;
 }
 
@@ -209,7 +209,7 @@ color: var(--hover-color);
     content: '';
     width: 32px;
     height: 32px;
-    background-image: url(/img/icon/BOOK\ 2.png);
+    background-image: url(../img/icon/BOOK\ 2.png);
 }
 
 .icon-05::before {
@@ -220,7 +220,7 @@ color: var(--hover-color);
     content: '';
     width: 32px;
     height: 32px;
-    background-image: url(/img/icon/HOME.png);
+    background-image: url(../img/icon/HOME.png);
     background-repeat: no-repeat;
 }
 
@@ -232,7 +232,7 @@ color: var(--hover-color);
     content: '';
     width: 32px;
     height: 32px;
-    background-image: url(/img/icon/IMAGE.png);
+    background-image: url(../img/icon/IMAGE.png);
     background-repeat: no-repeat;
 }
 
@@ -390,28 +390,28 @@ color: var(--hover-color);
 
 .icon-fecebok {
     background-color: #fce38a;
-    background-image: url(/img/icon-social/facebook.png);
+    background-image: url(../img/icon-social/facebook.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .icon-twitter {
     background-color: #fce38a;
-    background-image: url(/img/icon-social/twitter.png);
+    background-image: url(../img/icon-social/twitter.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .icon-pinterest {
     background-color: #fce38a;
-    background-image: url(/img/icon-social/pinterest.png);
+    background-image: url(../img/icon-social/pinterest.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .icon-instagram {
     background-color: #fce38a;
-    background-image: url(/img/icon-social/instagram.png);
+    background-image: url(../img/icon-social/instagram.png);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -473,4 +473,6 @@ form {
     color: #ffffff;
     background-color: var(--accent-color);
     text-transform: uppercase;
+
+
 }
