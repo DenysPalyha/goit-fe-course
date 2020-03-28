@@ -1,0 +1,286 @@
+@media (max-width: 767px) {
+    .conteiner {
+        text-align: center;
+    }
+
+    .baner {
+        width: 100%;
+        min-height: 540px;
+        background-size: 70rem;
+    }
+
+    .header__inner {
+        display: flex;
+        flex-direction:column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header__logo {
+        margin-bottom: 35px;
+    }
+
+    .button-item {
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 112px;
+    }
+
+    .section__promo-heading {
+        margin-bottom: 17px;
+        font-size: 30px;
+        line-height: 1.2;
+        font-weight: 600;
+    }
+
+    .section__promo-text {
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 18px;
+        line-height: 1.2;
+        font-weight: 300;
+    }
+    .section__promo-button {
+        width: 280px;
+        height: 40px;
+        margin-top: 18px;
+    }
+
+    .section__partners {
+        padding-top: 70px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+
+    .section__partners-heading {
+        margin: 0 10px;
+        padding-bottom: 15px;
+        font-size: 22px;
+        line-height: 1;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .section__partners-item {
+        width: 100%;
+        max-width: 245px;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+
+    .section__partners-head {
+        margin-top: 15px;
+    }
+
+    .section__partners-text {
+        margin-top: 15px;
+    }
+
+    .section__partners-btn {
+    width: 280px;
+    height: 40px;
+}
+}
+
+@media (min-width: 767px) {
+    .conteiner {
+        width: 100%;
+        min-width: 748px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .baner {
+        min-height: 700px;
+        background-size: 90rem;
+    }
+
+    .header__inner {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 45px;
+        margin-left: 42px;
+        margin-right: 40px;
+    }
+
+    .header__btn  {
+        min-width: 175px;
+    }
+
+    .button-item {
+        display: flex;
+    }
+
+    .header__button {
+        text-align: center;
+    }
+
+    .section__promo {
+        max-width: 67.40%;
+        margin-left: 16.3%;
+        margin-right: 16.3%;
+        padding-top: 140px;
+        text-align: center;
+    }
+
+    .section__promo-heading {
+        font-size: 52px;
+        line-height: 1.2;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+
+    .section__promo-text {
+        font-size: 24px;
+        line-height: 1;
+        font-weight: 300;
+        margin-bottom: 30px;
+    }
+
+    .section__promo-button {
+        width: 230px;
+        height: 40px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 939px) {
+    .section__partners {
+        max-width: 520px;
+        margin: 0 auto;
+        padding-top: 70px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+    
+    .section__partners-heading {
+        padding-bottom: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+        .section__partners-list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        }
+    
+    .section__partners-item {
+        width: 100%;
+        max-width: 245px;
+        padding-bottom: 40px
+    }
+    
+    .image-02 {
+        order: 2;
+    }
+    
+    .image-04 {
+        order: 3;
+    }
+
+    .section__partners-head {
+        margin-top: 20px;
+    }
+
+    .section__partners-text {
+        margin-top: 13px;
+    }
+    
+    .section__partners-btn {
+        width: 192px;
+        height: 40px;
+    }
+}
+
+@media (min-width: 940px) {
+    .conteiner {
+        width: 940px;
+        padding: 0;
+    }
+
+    .baner {
+        min-height: 700px;
+    }
+
+    .header__inner {
+        align-items: center;
+        margin: 0;
+        padding-top: 40px;
+    }
+
+    .header__button {
+        text-align: center;
+    }
+
+    .section__promo {
+        max-width: 55.2%;
+        margin-left: 22.4%;
+        margin-right: 22.4%;
+        padding-top: 147px;
+        text-align: center;
+    }
+
+    .section__promo-heading {
+        margin-bottom: 20px;
+    }
+
+    .section__promo-button {
+        width: 220px;
+        height: 40px;
+        border: 2px solid #fff;
+        background-color: transparent;
+}
+
+.section__promo-button:hover {
+    background-color: var(--bg-color);
+    border-color: var(--bg-color);
+}
+.section__partners {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.section__partners-heading {
+    padding-bottom: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.section__partners-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px
+}
+
+.section__partners-item {
+    width: 100%;
+    max-width: 235px;
+}
+
+.image-02 {
+    order: 2;
+}
+
+.image-04 {
+    order: 3;
+}
+
+.section__partners-head {
+    margin-top: 20px;
+}
+
+.section__partners-text {
+    margin-top: 16px;
+}
+
+.section__partners-btn {
+    width: 192px;
+    height: 40px;
+}
+
+.section__partners-btn:hover {
+    background-color: var(--bg-color);
+    color: var(--text-color)
+}
+}
