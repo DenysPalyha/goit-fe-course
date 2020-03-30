@@ -22,7 +22,7 @@
 
     .button-item {
         display: flex;
-        margin-top: 20px;
+        padding-top: 20px;
         margin-bottom: 112px;
     }
 
@@ -36,6 +36,7 @@
     .section__promo-text {
         margin-left: 50px;
         margin-right: 50px;
+        margin-bottom: 18px;
         font-size: 18px;
         line-height: 1.2;
         font-weight: 300;
@@ -43,7 +44,6 @@
     .section__promo-button {
         width: 280px;
         height: 40px;
-        margin-top: 18px;
     }
 
     .section__partners {
@@ -54,7 +54,7 @@
 
     .section__partners-heading {
         margin: 0 10px;
-        padding-bottom: 15px;
+        margin-bottom: 15px;
         font-size: 22px;
         line-height: 1;
         font-weight: 700;
@@ -68,12 +68,24 @@
         padding-bottom: 30px;
     }
 
-    .section__partners-head {
-        margin-top: 15px;
+    .section__partners-pages {
+        margin-bottom: 15px;
     }
 
-    .section__partners-text {
-        margin-top: 15px;
+    .section__partners-picture {
+        margin-bottom: 15px;
+    }
+
+    .section__partners-image {
+        margin-bottom: 15px;
+    }
+
+    .section__partners-cover {
+        margin-bottom: 15px;
+    }
+
+    .section__partners-head {
+        margin-bottom: 15px;
     }
 
     .section__partners-btn {
@@ -109,10 +121,6 @@
 
     .button-item {
         display: flex;
-    }
-
-    .header__button {
-        text-align: center;
     }
 
     .section__promo {
@@ -153,7 +161,7 @@
     }
     
     .section__partners-heading {
-        padding-bottom: 30px;
+        margin-bottom: 30px;
         font-weight: 700;
         text-align: center;
     }
@@ -170,22 +178,34 @@
         padding-bottom: 40px
     }
     
-    .image-02 {
+    .picture {
         order: 2;
     }
     
-    .image-04 {
+    .cover {
         order: 3;
     }
 
-    .section__partners-head {
-        margin-top: 20px;
+    .section__partners-pages {
+        margin-bottom: 20px;
     }
 
-    .section__partners-text {
-        margin-top: 13px;
+    .section__partners-image {
+        margin-bottom: 20px;
     }
-    
+
+    .section__partners-picture {
+        margin-bottom: 20px
+    }
+
+    .section__partners-cover {
+        margin-bottom: 20px;
+    }
+
+    .section__partners-head {
+        margin-bottom: 13px;
+    }
+
     .section__partners-btn {
         width: 192px;
         height: 40px;
@@ -206,10 +226,6 @@
         align-items: center;
         margin: 0;
         padding-top: 40px;
-    }
-
-    .header__button {
-        text-align: center;
     }
 
     .section__promo {
@@ -242,7 +258,7 @@
 }
 
 .section__partners-heading {
-    padding-bottom: 30px;
+    margin-bottom: 30px;
     font-weight: 700;
     text-align: center;
 }
@@ -258,20 +274,32 @@
     max-width: 235px;
 }
 
-.image-02 {
+.picture {
     order: 2;
 }
 
-.image-04 {
+.cover{
     order: 3;
 }
 
-.section__partners-head {
-    margin-top: 20px;
+.section__partners-pages {
+    margin-bottom: 20px;
 }
 
-.section__partners-text {
-    margin-top: 16px;
+.section__partners-image {
+    margin-bottom: 20px;
+}
+
+.section__partners-picture {
+    margin-bottom: 20px
+}
+
+.section__partners-cover {
+    margin-bottom: 20px;
+}
+
+.section__partners-head {
+    margin-bottom: 16px;
 }
 
 .section__partners-btn {

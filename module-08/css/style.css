@@ -44,24 +44,21 @@ html {
     height: 35px;
     margin: 0;
     padding: 10px;
-    box-sizing: border-box;
-}
-
-.header__button:hover {
-    border: 2px solid #fff;
-    border-radius: 40px;
-}
-
-.header__button-link {
-    display: block;
-    margin: 0;
-    padding: 0;
+    background-color: transparent;
+    border: none;
+    font: inherit;
+    outline: 0;
     font-family: var(--ff-mont);
     font-size: 14px;
     line-height: 1;
     font-weight: 600;
     color: var(--text-color);
-    text-decoration: none;
+    cursor: pointer;
+}
+
+.header__button:hover {
+    border: 2px solid #fff;
+    border-radius: 40px;
 }
 
 .section__promo-heading {
@@ -90,6 +87,7 @@ html {
     line-height: 1.2;
     font-weight: 600;
     color: var(--text-color);
+    cursor: pointer;
 }
 
 .section__partners-heading {
@@ -112,7 +110,18 @@ html {
     padding: 0;
 }
 
-.section__parents-icon-01 {
+.section__partners-pages {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    background-image: url(../img/image/Layer\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section__partners-pages::after {
+    display: block;
+    content: '';
     position: absolute;
     right: 60px;
     top: 85px;
@@ -126,10 +135,22 @@ html {
     background-position: center;
 }
 
-.section__parents-icon-02 {
+.section__partners-picture {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    background-image: url(../img/image/Layer\ 3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section__partners-picture::after {
     position: absolute;
     right: 60px;
     top: 85px;
+    display: block;
+    content: '';
+    position: absolute;
     width: 40px;
     height: 40px;
     border: 4px solid #fff;
@@ -140,10 +161,21 @@ html {
     background-position: center;
 }
 
-.section__parents-icon-03 {
+.section__partners-image {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    background-image: url(../img/image/Layer\ 2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section__partners-image::after {
     position: absolute;
     right: 60px;
     top: 85px;
+    display: block;
+    content: '';
     width: 40px;
     height: 40px;
     border: 4px solid #fff;
@@ -154,10 +186,21 @@ html {
     background-position: center;
 }
 
-.section__parents-icon-04 {
+.section__partners-cover {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    background-image: url(../img/image/Layer\ 4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section__partners-cover::after {
     position: absolute;
     right: 60px;
-    top: 88px;
+    top: 85px;
+    display: block;
+    content: '';
     width: 40px;
     height: 40px;
     border: 4px solid #fff;
@@ -199,4 +242,5 @@ html {
     line-height: 1.2;
     font-weight: 700;
     color: var(--bg-color);
+    cursor: pointer;
 }
