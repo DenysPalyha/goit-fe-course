@@ -146,11 +146,7 @@
         font-weight: 700;
     }
     
-    .section__partners-list {
-        margin-bottom: 2rem;
-    }
-
-    .section__partners-list [class*="col-"]:nth-child(-n + 2) {
+    .section__partners-list [class*="col-"] {
         margin-bottom: 40px;
     }
 
@@ -228,32 +224,16 @@
     margin-bottom: 1.2rem;
 }
 
-.section__partners-pages::after {
-    right: 45px;
-}
-
 .section__partners-image {
     margin-bottom: 1.2rem;
-}
-
-.section__partners-image::after {
-    right: 45px;
 }
 
 .section__partners-picture {
     margin-bottom: 1.2rem;
 }
 
-.section__partners-picture::after {
-    right: 45px;
-}
-
 .section__partners-cover {
     margin-bottom: 1.2rem;
-}
-
-.section__partners-cover::after {
-    right: 45px;
 }
 
 .section__partners-head {
