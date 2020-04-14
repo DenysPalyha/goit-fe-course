@@ -233,12 +233,12 @@ body {
 
     /* .service section */
 
-.service {
+.section {
   padding-top: 2.8rem;
   padding-bottom: 5.6rem;
 }
 
-.common__heading {
+.section__title {
   margin: 0;
   margin-bottom: 3.1rem;
   font-family: var(--ff-monts);
@@ -250,7 +250,7 @@ body {
   text-align: center;
 }
 
-.common__heading::after {
+.section__title::after {
   display: block;
   content: '';
   width: 3.8rem;
@@ -259,7 +259,7 @@ body {
   background-color: var(--color-icon-two);
 }
 
-.common__span {
+.section__span {
   margin-bottom: 1.25rem;
   font-size: 24px;
   line-height: 1;
@@ -333,7 +333,7 @@ body {
   padding-bottom: 5rem;
 }
 
-.team__text {
+.section__text {
   max-width: 59.6rem;
   margin: 0 auto;
   margin-bottom: 5rem;
@@ -461,14 +461,14 @@ body {
 
     /* footer section */
 
-.footer__iner {
+.footer-iner {
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-top: 1px solid rgb(229, 229, 229);
 }
 
-.footer__item {
+.footer-iner__item {
   font-family: var(--ff-monts);
   font-size: 14px;
   line-height: 17px;
@@ -478,7 +478,7 @@ body {
   padding: 0;
 }
 
-.footer__link {
+.footer-iner__link {
   font-family: var(--ff-monts);
   font-size: 14px;
   line-height: 17px;
@@ -488,7 +488,7 @@ body {
   transition: color 200ms linear;
 }
 
-.footer__link:hover {
+.footer-iner__link:hover {
   color: var(--color-icon-two);
 }
 
@@ -498,14 +498,14 @@ form {
   margin-bottom: 10px;
 }
 
-.input-text {
+.footer-iner__input {
   width: 230px;
   height: 40px;
   margin: 0;
   padding: 0;
 }
 
-.input-text::placeholder {
+.footer-iner__inputt::placeholder {
   font-family: var(--ff-monts);
   font-size: 14px;
   font-weight: 300;
@@ -513,7 +513,7 @@ form {
   font-style: italic;
 }
 
-.input__buuton {
+.footer-iner__buuton {
   width: 150px;
   height: 40px;
   margin: 0;
