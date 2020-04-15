@@ -1,5 +1,5 @@
 :root {
-  --ff-kaushan: "Kaushan Script";
+  --ff-kaushan: 'Kaushan Script', cursive;
   --ff-monts: "Montserrat";
   --ff-roboto: "Roboto";
   --color-text-one: #fff;
@@ -108,8 +108,11 @@ body {
           align-items: flex-end;
 }
 
-.header-nav__link {
+.header-nav__item {
   margin-right: 3.2rem;
+}
+
+.header-nav__link {
   font-family: var(--ff-monts);
   font-size: 0.8rem;
   line-height: 1.2;
