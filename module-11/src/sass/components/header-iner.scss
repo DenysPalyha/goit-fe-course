@@ -1,0 +1,23 @@
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 25px;
+   &__logo {
+    @extend %list;
+    font-family: $ff-monts;
+    font-size: 1.8rem;
+    line-height: 1;
+    font-weight: 600;
+    color: $color-text-one;
+    transition: color 200ms linear;
+  }
+    &__logo:hover {
+    color: $color-hover;
+  }
+}
+ 
+
+ 
+ 

@@ -1,0 +1,43 @@
+.heading {
+  padding-top: 160px;
+  padding-bottom: 220px;
+  text-align: center;
+
+  &__about {
+    margin: 0 auto;
+    padding-bottom: 115px;
+    width: 830px;
+    font-family: $ff-monts;
+    font-size: 150px;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $color-text-one;
+  }
+ 
+    &__span {
+    padding-bottom: 40px;
+    font-size: 72px;
+    line-height: 1;
+    font-weight: 400;
+    color: $color-text-one;
+    text-transform: none;
+  }
+ 
+    &__btn {
+    width: 160px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    border: 3px solid $color-text-one;
+    background-color: transparent;
+    font-family: $ff-monts;
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 600;
+    color: $color-text-one;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,18 @@
+.baner {
+  min-height: 1000px;
+  background-image: linear-gradient(rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9)),
+    url(../images/picture.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .baner {
+    background-image: linear-gradient(rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9)),
+      url(../images/picture@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+ 

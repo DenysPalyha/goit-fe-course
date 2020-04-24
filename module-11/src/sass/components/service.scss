@@ -1,0 +1,28 @@
+.service {
+  @extend %list;
+  @extend %list-flex;
+    &__item {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 22rem;
+  }
+ 
+    &__item:not(:nth-last-child(-n +3)) {
+    margin-bottom: 6.25rem;
+  }
+ 
+    &__head {
+    margin: 0;
+    margin-bottom: 1.2rem;
+    font-size: 14px;
+    font-weight: 400;
+    color: $color-text-two;
+    text-transform: uppercase;
+  }
+ 
+    &__text {
+    margin: 0;
+    padding: 0;
+  }
+}

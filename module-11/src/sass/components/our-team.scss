@@ -1,0 +1,39 @@
+.our-team {
+  @extend %list;
+  @extend %list-flex;
+    &__wrap {
+    position: relative;
+    margin-bottom: 1.8rem;
+    transition: all 200ms linear;
+  }
+ 
+    &__wrap:hover {
+    transform: translate(-9px, -9px);
+    box-shadow: 9px 9px 0 $color-icon-one;
+  }
+
+    &__img {
+    display: block;
+    width: 100%;
+    height: 29.3rem;
+  }
+
+  &__name {
+    font-family: $ff-monts;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 600;
+    color: $color-text-two;
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  &__direction {
+    display: block;
+    font-weight: lighter;
+    text-align: center;
+  }
+}

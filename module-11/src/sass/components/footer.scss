@@ -1,0 +1,61 @@
+.footer-iner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgb(229, 229, 229);
+
+    &__item {
+    font-family: $ff-monts;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    color: $color-text-two;
+    margin: 0;
+    padding: 0;
+  }
+    
+    &__link {
+    font-family: $ff-monts;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    color: $color-text-two;
+    text-decoration: none;
+    transition: color 200ms linear;
+  }
+    
+    &__link:hover {
+    color: $color-icon-two;
+  }
+
+    &__input {
+    width: 230px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+  }
+  
+    &__inputt::placeholder {
+    font-family: $ff-monts;
+    font-size: 14px;
+    font-weight: 300;
+    color: #bbbbbb;
+    font-style: italic;
+  }
+  
+    &__buuton {
+    width: 150px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: $ff-monts;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: $color-icon-one;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+}

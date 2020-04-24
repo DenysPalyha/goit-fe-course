@@ -1,0 +1,44 @@
+.header-nav {
+  &__list {
+    @extend %list;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
+   &__item {
+    margin-right: 3.2rem;
+  }
+    &__link {
+    @extend %list;
+    font-family: $ff-monts;
+    font-size: 0.8rem;
+    line-height: 1.2;
+    font-weight: 400;
+    color: $color-text-one;
+    text-transform: uppercase;
+    transition: color 200ms linear;
+  }
+   &__link::after {
+    display: block;
+    content: '';
+    width: 100%;
+    height: 2px;
+    margin: 5px 0 0;
+    background-color: transparent;
+    transition: color 200ms linear;
+  }
+   &__link:hover::after {
+    background-color: $color-hover;
+  }
+   
+   &__link:hover {
+    color: $color-hover;
+  }
+}
+ 
+
+ 
+
+ 
+
+ 

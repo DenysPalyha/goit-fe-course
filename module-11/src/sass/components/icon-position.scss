@@ -1,0 +1,9 @@
+.icon-position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-position:hover .icon {
+  fill: $color-text-one;
+}

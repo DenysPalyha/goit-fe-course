@@ -1,0 +1,42 @@
+.section {
+  padding-top: 2.8rem;
+  padding-bottom: 5.6rem;
+ 
+    &__title {
+    margin: 0;
+    margin-bottom: 3.1rem;
+    font-family: $ff-monts;
+    font-size: 30px;
+    line-height: 1;
+    font-weight: 700;
+    color: $color-text-two;
+    text-transform: uppercase;
+    text-align: center;
+  }
+ 
+    &__title::after {
+    display: block;
+    content: '';
+    width: 3.8rem;
+    height: 4px;
+    margin: 40px auto 0;
+    background-color: $color-icon-two;
+  }
+ 
+    &__span {
+    margin-bottom: 1.25rem;
+    font-size: 24px;
+    line-height: 1;
+    font-weight: 400;
+    color: $color-text-two;
+    text-transform: none;
+  }
+
+  &__text {
+    max-width: 59.6rem;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    padding: 0;
+    text-align: center;
+  }
+}
